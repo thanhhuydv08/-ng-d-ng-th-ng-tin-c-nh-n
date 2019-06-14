@@ -33,7 +33,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class FrmAppMain extends Controller {
+public class FrmEditInformation extends Controller {
 	Object [] colum = {"Picture","Full Name","Phone"};
 
 	int rowUpdate;
@@ -55,7 +55,7 @@ public class FrmAppMain extends Controller {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FrmAppMain window = new FrmAppMain();
+					FrmEditInformation window = new FrmEditInformation();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -67,7 +67,7 @@ public class FrmAppMain extends Controller {
 	/**
 	 * Create the application.
 	 */
-	public FrmAppMain() {
+	public FrmEditInformation() {
 		initialize();
 	}
 
